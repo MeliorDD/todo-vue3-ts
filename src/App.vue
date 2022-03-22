@@ -18,7 +18,7 @@ h6 {
   padding: 0;
 }
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Raleway", sans-serif;
   width: 100vw;
   height: 100vh;
 }

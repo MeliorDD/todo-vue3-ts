@@ -7,7 +7,7 @@
 <script>
 import TodoMain from "@/components/TodoMain";
 export default {
-  name: "MainView",
+  name: "LayoutMain",
   mixins: [],
   props: {},
   components: { TodoMain },

@@ -1,12 +1,12 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
-import MainView from "../views/MainView.vue";
+import LayoutMain from "../layouts/LayoutMain.vue";
 import TodoPage from "../views/TodoPage.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: "/",
-    name: "MainView",
-    component: MainView,
+    name: "LayoutMain",
+    component: LayoutMain,
     children: [
       {
         path: ":id",
