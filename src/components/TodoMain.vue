@@ -35,7 +35,8 @@ export default defineComponent({
       return store.state.todoListArray;
     });
     onMounted(() => {
-      store.dispatch("getAllTodoLists");
+      store.dispatch("getAllTodoListsAction");
+      store.dispatch("getAllTodosAction");
     });
     return { todoListArray };
   },

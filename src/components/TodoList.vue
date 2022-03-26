@@ -9,6 +9,7 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import { useStore } from "vuex";
+import { useRouter } from "vue-router";
 export default defineComponent({
   name: "TodoList",
   components: {},
@@ -22,8 +23,10 @@ export default defineComponent({
   },
   setup(props) {
     const store = useStore();
+    const router = useRouter();
     const openTodoList = () => {
-      store.commit("SET_CURRENT_TODO_LIST", props.todoList);
+      store.dispatch("getTodosOfCurrentTodoListAction", props.todoList);
+      router.push({ name: "TodoPage", params: { id: props.todoList.id } });
     };
     return { openTodoList };
   },

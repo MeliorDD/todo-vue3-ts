@@ -2,234 +2,67 @@
   "lists": [
     {
       "id": 0,
-      "title": "todo list",
-      "todos": [
-        {
-          "id": 0,
-          "title": "todo",
-          "is_complete": false
-        }
-      ]
+      "title": "todo list"
     },
     {
-      "id": 0,
-      "title": "todo list",
-      "todos": [
-        {
-          "id": 0,
-          "title": "todo",
-          "is_complete": false
-        }
-      ]
-    },
+      "id": 1,
+      "title": "todo list2"
+    }
+  ],
+  "todos": [
     {
       "id": 0,
-      "title": "todo list",
-      "todos": [
-        {
-          "id": 0,
-          "title": "todo",
-          "is_complete": false
-        }
-      ]
+      "list_id": 0,
+      "title": "todo1",
+      "is_completed": false
     },
     {
-      "id": 0,
-      "title": "todo list",
-      "todos": [
-        {
-          "id": 0,
-          "title": "todo",
-          "is_complete": false
-        }
-      ]
+      "id": 1,
+      "list_id": 0,
+      "title": "todo2",
+      "is_completed": false
     },
     {
-      "id": 0,
-      "title": "todo list",
-      "todos": [
-        {
-          "id": 0,
-          "title": "todo",
-          "is_complete": false
-        }
-      ]
+      "id": 2,
+      "list_id": 1,
+      "title": "todo3",
+      "is_completed": false
     },
     {
-      "id": 0,
-      "title": "todo list",
-      "todos": [
-        {
-          "id": 0,
-          "title": "todo",
-          "is_complete": false
-        }
-      ]
+      "id": 3,
+      "list_id": 0,
+      "title": "todo4",
+      "is_completed": false
     },
     {
-      "id": 0,
-      "title": "todo list",
-      "todos": [
-        {
-          "id": 0,
-          "title": "todo",
-          "is_complete": false
-        }
-      ]
+      "id": 4,
+      "list_id": 1,
+      "title": "todo5",
+      "is_completed": false
     },
     {
-      "id": 0,
-      "title": "todo list",
-      "todos": [
-        {
-          "id": 0,
-          "title": "todo",
-          "is_complete": false
-        }
-      ]
+      "id": 5,
+      "list_id": 0,
+      "title": "todo6",
+      "is_completed": false
     },
     {
-      "id": 0,
-      "title": "todo list",
-      "todos": [
-        {
-          "id": 0,
-          "title": "todo",
-          "is_complete": false
-        }
-      ]
+      "id": 6,
+      "list_id": 0,
+      "title": "todo7",
+      "is_completed": false
     },
     {
-      "id": 0,
-      "title": "todo list",
-      "todos": [
-        {
-          "id": 0,
-          "title": "todo",
-          "is_complete": false
-        }
-      ]
+      "id": 7,
+      "list_id": 1,
+      "title": "todo8",
+      "is_completed": false
     },
     {
-      "id": 0,
-      "title": "todo list",
-      "todos": [
-        {
-          "id": 0,
-          "title": "todo",
-          "is_complete": false
-        }
-      ]
-    },
-    {
-      "id": 0,
-      "title": "todo list",
-      "todos": [
-        {
-          "id": 0,
-          "title": "todo",
-          "is_complete": false
-        }
-      ]
-    },
-    {
-      "id": 0,
-      "title": "todo list",
-      "todos": [
-        {
-          "id": 0,
-          "title": "todo",
-          "is_complete": false
-        }
-      ]
-    },
-    {
-      "id": 0,
-      "title": "todo list",
-      "todos": [
-        {
-          "id": 0,
-          "title": "todo",
-          "is_complete": false
-        }
-      ]
-    },
-    {
-      "id": 0,
-      "title": "todo list",
-      "todos": [
-        {
-          "id": 0,
-          "title": "todo",
-          "is_complete": false
-        }
-      ]
-    },
-    {
-      "id": 0,
-      "title": "todo list",
-      "todos": [
-        {
-          "id": 0,
-          "title": "todo",
-          "is_complete": false
-        }
-      ]
-    },
-    {
-      "id": 0,
-      "title": "todo list",
-      "todos": [
-        {
-          "id": 0,
-          "title": "todo",
-          "is_complete": false
-        }
-      ]
-    },
-    {
-      "id": 0,
-      "title": "todo list",
-      "todos": [
-        {
-          "id": 0,
-          "title": "todo",
-          "is_complete": false
-        }
-      ]
-    },
-    {
-      "id": 0,
-      "title": "todo list",
-      "todos": [
-        {
-          "id": 0,
-          "title": "todo",
-          "is_complete": false
-        }
-      ]
-    },
-    {
-      "id": 0,
-      "title": "todo list",
-      "todos": [
-        {
-          "id": 0,
-          "title": "todo",
-          "is_complete": false
-        }
-      ]
-    },
-    {
-      "id": 0,
-      "title": "todo list",
-      "todos": [
-        {
-          "id": 0,
-          "title": "todo",
-          "is_complete": false
-        }
-      ]
+      "id": 8,
+      "list_id": 1,
+      "title": "todo9",
+      "is_completed": false
     }
   ]
 }

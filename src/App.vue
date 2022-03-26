@@ -22,4 +22,9 @@ h6 {
   width: 100vw;
   height: 100vh;
 }
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
 </style>
